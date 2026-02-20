@@ -1,5 +1,6 @@
 import { Phone, ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
   const scrollToContact = () => {
@@ -7,14 +8,11 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-primary">
-      {/* Background pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0" style={{
-          backgroundImage: `radial-gradient(circle at 20% 50%, hsl(85 30% 45% / 0.3) 0%, transparent 50%), 
-                           radial-gradient(circle at 80% 20%, hsl(30 35% 35% / 0.2) 0%, transparent 50%),
-                           radial-gradient(circle at 50% 80%, hsl(145 45% 22% / 0.2) 0%, transparent 50%)`
-        }} />
+    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+      {/* Background image */}
+      <div className="absolute inset-0">
+        <img src={heroBg} alt="Baumpfleger bei der Arbeit an einem großen Baum" className="h-full w-full object-cover" />
+        <div className="absolute inset-0 bg-primary/75" />
       </div>
 
       <div className="container relative z-10 px-4 py-20 text-center">
