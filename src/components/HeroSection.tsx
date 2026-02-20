@@ -17,7 +17,7 @@ const HeroSection = () => {
 
       <div className="container relative z-10 px-4 py-20 text-center">
         <div className="mx-auto max-w-3xl">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-accent">
+          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-primary-foreground/90 drop-shadow-md">
             Ihr Experte für Baum- & Grünpflege
           </p>
           <h1 className="mb-6 text-4xl font-extrabold leading-tight text-primary-foreground md:text-6xl lg:text-7xl">
