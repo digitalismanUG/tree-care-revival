@@ -4,6 +4,7 @@ import ServicesSection from "@/components/ServicesSection";
 import TrustSection from "@/components/TrustSection";
 import ReviewsSection from "@/components/ReviewsSection";
 import ContactSection from "@/components/ContactSection";
+import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 import FloatingCTA from "@/components/FloatingCTA";
 
@@ -15,6 +16,7 @@ const Index = () => {
       <ServicesSection />
       <TrustSection />
       <ReviewsSection />
+      <FAQSection />
       <ContactSection />
       <Footer />
       <FloatingCTA />
